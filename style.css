@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.container{
+    width: 1200px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 35px;
+}
+.header{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+padding-top: 1px;
+padding-left: 1px;
+padding-right: 1px;
+}
+.header-link{
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;  
+   margin: 17px;
+   color: #B8BECD;
+   transition: all linear;
+   text-decoration: none;
+}
+.header-link:hover{
+    text-decoration: underline blue;
+}
+.header-link:active{
+    color: black;
+}
+.header__btn{
+font-style: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 60px;
+color: #ffffff;
+background: #FB8F1D;
+border-radius: 8px;
+border: 1px solid transparent;
+width: 132px;
+transition: all linear;
+}
+.header__btn:hover{
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    color: #FB8F1D;
+    background: transparent;
+}
+.header__btn:active{
+    border-color: black;
+    color: black;
+}
