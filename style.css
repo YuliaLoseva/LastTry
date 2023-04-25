@@ -148,3 +148,74 @@ position: absolute;
      border-color: black;
      color: black;
 }
+
+.pic-02{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 687px;
+height: 654px;
+display: flex;
+margin-top: 286px;
+}
+.section__thousand02{
+margin-top: 16px;
+}
+.text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 481px;
+}
+.section02__title{
+    margin-top: 382px;
+    margin-left: 102px;
+    max-width: 481px;
+    max-height: 100px;
+    left: 102px;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: black;
+}
+.section__text{
+    margin-top: 20px;
+    margin-left: 102px;
+    max-width: 450px;
+    max-height: 120px;
+    left: 102px;
+font-family: 'Muli', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 30px;
+color: #7D7987;
+}
+.section02__btn{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+    background: #FB8F1D;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    width: 164px;
+    height: 48px;
+    transition: all linear;
+    margin-top: 39px;
+    margin-left: 102px;
+    }
+.section02__btn:hover{
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    color: #FB8F1D;
+    background: transparent;
+ }
+ .section02__btn:active{
+     border-color: black;
+     color: black;
+}
