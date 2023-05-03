@@ -135,13 +135,13 @@ margin-top: 80px;
     transition: all linear;
     margin-top: 51px;
     }
-.section__btn:hover{
+button:hover{
     border: 1px solid #FB8F1D;
     border-radius: 8px;
     color: #FB8F1D;
     background: transparent;
  }
- .section__btn:active{
+button:active{
      border-color: black;
      color: black;
 }
@@ -186,18 +186,20 @@ margin-top: 16px;
     line-height: 50px;
     color: black;
 }
+p{
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+}
 .section__text{
     margin-top: 20px;
     margin-left: 102px;
     max-width: 450px;
     max-height: 120px;
     left: 102px;
-font-family: 'Muli', sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 17px;
-line-height: 30px;
-color: #7D7987;
 }
 .section02__btn{
     font-family: 'Inter', sans-serif;
@@ -215,13 +217,13 @@ color: #7D7987;
     margin-top: 39px;
     margin-left: 102px;
     }
-.section02__btn:hover{
+    button:hover{
     border: 1px solid #FB8F1D;
     border-radius: 8px;
     color: #FB8F1D;
     background: transparent;
  }
- .section02__btn:active{
+ button:active{
      border-color: black;
      color: black;
 }
@@ -319,4 +321,53 @@ mix-blend-mode: normal;
 color: rgba(128, 145, 142, 1);
 
 mix-blend-mode: normal;
+}
+/*section 4 Guides Download*/
+.guides{
+    position: relative;
+margin-top: 237px;
+
+}
+.guides__thousand{
+float: right;
+margin-top: 173px;
+}
+.guides__thousand__phone{
+    width: 599px;
+    height: 542px;
+}
+.guides__text{
+float: left;
+margin-top: 325px;
+
+}
+.guides__text__title{
+max-width: 481px;
+max-height: 100px;
+font-family: 'Playfair Display',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 50px;
+color: #000000;
+}
+.guides__text__resource{
+max-width: 450px;
+max-height: 90px;
+padding-top: 20px;
+}
+.guides__btn{
+       font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+    background: #FB8F1D;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    width: 164px;
+    height: 48px;
+    transition: all linear;
+    margin-top: 33px;
 }
