@@ -371,3 +371,128 @@ padding-top: 20px;
     transition: all linear;
     margin-top: 33px;
 }
+/*section 5 mister umnik*/
+.mister{
+display: flex;
+position: relative;
+  margin-top: 558px;
+  width: 100%;
+  max-width: 1180px;
+  max-height: 616px;
+  padding-top: 356px;
+}
+.mister__stuff__testimonials{
+max-width: 481px;
+max-height: 50px;
+font-family: 'Playfair Display', sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 50px;
+text-align: center;
+color: rgba(0 0, 0, 1,);
+padding-left: 145px;
+}
+.mister__stuff__words{
+display: flex;
+flex-direction: column;
+padding-left: 140px;
+
+}
+.mister__stuff__words__stars{
+    display: flex;
+    max-width: 189px;
+    max-height: 24px;
+    justify-content: space-between;
+    margin-top: 145px;
+    float: left;
+}
+.mister__stuff__words__onestar{
+    width: 26px;
+height: 24px;
+color: #FFBB0C;
+border-radius: 8px;
+}
+.mister__stuff__words__talk{
+    max-width: 450px;
+    max-height: 144px;
+    margin-top: 30px;
+    font-family: 'Muli', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+}
+.mister__stuff__words__name{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #000000;
+    margin-top: 40px;
+    max-width: 183px;
+    max-height: 48px;
+}
+.mister__stuff__wods__who{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85);
+    max-width: 124px;
+    max-height: 48px;
+}
+.mister__photography{
+margin-top: 60px;
+float: right;
+}
+.mister__photography__him{
+width: 384px;
+height: 491px;
+background: #c4c4c4;
+border-radius: 16px;
+}
+.mister__photography__him__rectangle{
+display: flex;
+position: absolute;
+bottom: 0;
+width: 132px;
+height: 60px;
+background: #ffffff;
+border-radius: 16px 0px 0px 0px;
+margin-left: 252px;
+}
+/*copy paste*/
+viewall__places__rectangle{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 120px;
+    background: #ffffff;
+    border-radius: 0px 6px 0px 0px;
+    padding-top: 11px;
+}
+.viewall__places__rectangle__name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+
+color: rgba(4, 37, 33, 1);
+
+mix-blend-mode: normal;
+}
+.viewall__places__rectangle__place{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+
+color: rgba(128, 145, 142, 1);
+
+mix-blend-mode: normal;
