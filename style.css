@@ -381,21 +381,25 @@ position: relative;
   max-height: 616px;
   padding-top: 356px;
 }
-.mister__stuff__testimonials{
+.mister__stuff{
+    display: flex;
+flex-direction: column;
 max-width: 481px;
 max-height: 50px;
+}
+.mister__stuff__testimonials{
 font-family: 'Playfair Display', sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 50px;
-text-align: center;
 color: rgba(0 0, 0, 1,);
-padding-left: 145px;
 }
 .mister__stuff__words{
 display: flex;
 flex-direction: column;
-padding-left: 140px;
+max-width: 450px;
+max-height: 321px;
+
 
 }
 .mister__stuff__words__stars{
@@ -445,7 +449,10 @@ color: #000000;
     max-height: 48px;
 }
 .mister__photography{
+    width: 417px;
+height: 523px;
 margin-top: 60px;
+margin-left: 184px;
 float: right;
 }
 .mister__photography__him{
@@ -453,6 +460,7 @@ width: 384px;
 height: 491px;
 background: #c4c4c4;
 border-radius: 16px;
+margin-top: 27px;
 }
 .mister__photography__him__rectangle{
 display: flex;
@@ -463,6 +471,35 @@ height: 60px;
 background: #ffffff;
 border-radius: 16px 0px 0px 0px;
 margin-left: 252px;
+margin-top: 431px;
+}
+.mister__photography__him__previous{
+    height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  border: 2px solid #D7D7D7;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.mister__photography__him__previous__svg{
+    justify-content: center;
+    margin-top: 14px;
+}
+.mister__photography__him__next{
+    height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  border: 2px solid #000000;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+.mister__photography__him__next__svg{
+    justify-content: center;
+    margin-top: 14px;
 }
 /*copy paste*/
 viewall__places__rectangle{
