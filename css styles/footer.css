@@ -4,16 +4,7 @@
 width: 1640px;
 height: 482px;
 margin-top: 563px;
-}
-.picolo{
-    width: 1640px;
-height: 482px;
-    background: #f9f9fb;
-}
-.socMed__polosa{
-width: 1219px;
-height: 0.6px;
-color: rgba(196, 196, 196, 1);
+background: #f9f9fb;
 }
 .contacts__short{
     padding-left: 190px;
@@ -76,7 +67,7 @@ line-height: 38px;
 color: #848484;
 }
 .socMed{
-    max-width: 1600px;
+    width: 1640px;
 background: #f9f9fb;
 }
 .socMed__logs{
@@ -84,7 +75,13 @@ background: #f9f9fb;
     max-height: 23px;
     justify-content: space-between;
     margin-left: 540px;
+    margin-top: 30px;
 }
 .iconify{
 margin-left: 30px;
+}
+.socMed__create-line{
+    margin-left: 191px;
+    width: 1219px;
+    border-top: 0.6px solid #C4C4C4;
 }
