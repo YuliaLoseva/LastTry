@@ -1,0 +1,51 @@
+.guides{
+    position: relative;
+margin-top: 231px;
+margin-left: 240px;
+margin-right: 155px;
+width: 1206px;
+max-height: 542px;
+}
+.guides__thousand{
+float: right;
+padding-right: 76.5px;
+}
+.guides__thousand__phone{
+    width: 599px;
+    height: 542px;
+}
+.guides__text{
+float: left;
+margin-top: 152px;
+
+}
+.guides__text__title{
+max-width: 481px;
+max-height: 100px;
+font-family: 'Playfair Display',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 50px;
+color: #000000;
+}
+.guides__text__resource{
+max-width: 450px;
+max-height: 90px;
+padding-top: 20px;
+}
+.guides__btn{
+       font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+    background: #FB8F1D;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    width: 164px;
+    height: 48px;
+    transition: all linear;
+    margin-top: 33px;
+}

@@ -1,0 +1,80 @@
+.container__newway{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1242px;
+    max-height: 550px;
+    margin-left: 141px;
+    margin-right: 217px;
+    margin-top: 270px;
+    }
+    .container__newway__thousand{
+        top: 0;
+        left: 0;
+        width: 687px;
+    height: 654px;
+    display: flex;
+    }
+    .container__newway__thousand-02{
+    margin-top: 16px;
+    }
+    .text{
+        justify-content: right;
+        top: 0;
+        right: 10px;
+        width: 481px;
+    }
+    .section02__title{
+        margin-top: 112px;
+        margin-left: 102px;
+        max-width: 481px;
+        max-height: 100px;
+        left: 102px;
+        font-family: 'Playfair Display', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 50px;
+        color: black;
+    }
+    p{
+        font-family: 'Muli', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+        color: #7D7987;
+    }
+    .section__text{
+        margin-top: 20px;
+        margin-left: 102px;
+        max-width: 450px;
+        max-height: 120px;
+        left: 102px;
+    }
+    .section02__btn{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 40px;
+        color: #ffffff;
+        background: #FB8F1D;
+        border-radius: 8px;
+        border: 1px solid transparent;
+        width: 164px;
+        height: 48px;
+        transition: all linear;
+        margin-top: 39px;
+        margin-left: 102px;
+        }
+        button:hover{
+        border: 1px solid #FB8F1D;
+        border-radius: 8px;
+        color: #FB8F1D;
+        background: transparent;
+     }
+     button:active{
+         border-color: black;
+         color: black;
+    }

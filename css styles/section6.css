@@ -1,12 +1,16 @@
 .stories{
     position: relative;
 width: 1222px;
-height: 684px;
+max-height: 684px;
 margin-top: 228px;
+margin-left: 143px;
+margin-right: 235px;
 }
 .stories__shorts{
 display: flex;
 justify-content: space-between;
+padding-top: 57px;
+padding-left: 97px;
 }
 .stories__shorts__trending{
     font-family: 'Playfair Display';
@@ -18,8 +22,6 @@ justify-content: space-between;
     max-width: 481px;
     max-height: 50px;
 }
-
-/*Test*/
 .stories__articles{
     display: flex;
     justify-content: space-between;
@@ -79,83 +81,4 @@ color: #FB8F1D;
 width: 266px;
 height: 28px;
 margin-top: 23px;
-}
-/*footer*/
-.contacts{
-    display: flex;
-max-width: 1600px;
-height: 482px;
-background: #f9f9fb;
-}
-.contacts__short{
-    margin-top: 78px;
-    position: relative;
-    max-width: 391px;
-    max-height: 237px;
-}
-.contacts__short__svg{
-    width: 44px;
-    height: 44px;
-}
-.contacts__short__thanks{
-    margin-top: 26px;
-    max-width: 391px;
-    max-height: 84px;
-    font-family: 'Muli', sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 28px;
-color: #848484;
-}
-.contacts__short__2020{
-    margin-top: 55px;
-    max-width: 391px;
-    max-height: 28px;
-    font-family: 'Muli', sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 17px;
-line-height: 28px;
-color: #848484;
-}
-.contacts__stolbiki{
-    max-width: 391px;
-    max-height: 249px;
-    margin-top:70px;
-    margin-left: 180px;
-}
-.contacts__stolbiki__shapka{
-    font-family: 'Muli';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 19px;
-    line-height: 60px;
-    color: #000000;
-    max-width: 115px;
-    max-height: 60px;
-}
-.contacts__stolbiki__telo{
-    max-height: 190px;
-}
-.contacts__area{
-    font-family: 'Muli', sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 38px;
-color: #848484;
-}
-.socMed{
-    max-width: 1600px;
-background: #f9f9fb;
-}
-.socMed__logs{
-    max-width: 248px;
-    max-height: 23px;
-    justify-content: space-between;
-    margin-left: 540px;
-}
-.iconify{
-margin-left: 30px;
 }

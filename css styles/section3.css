@@ -1,0 +1,99 @@
+.viewall{
+    position: relative;
+     display: flex;
+    flex-direction: column;
+    margin-top: 262px;
+    width: 100%;
+    height: 532px;
+    margin-left: 121px;
+    margin-right: 240px;
+    width: 1239px;
+    max-height: 532px;
+  }
+  .viewall__menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px;
+      margin-top: 30px;
+      padding-left: 119px;
+  }
+  .viewall__menu-title{
+      font-family: 'Playfair Display', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      color: black;
+      text-align: left;
+  padding-left: 1px;
+  padding-top: 1px;
+  max-width: 451px;
+  max-height: 50px;
+  }
+  
+  .viewall__menu__vector{
+      display: flex;
+      align-items: center;
+      font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  color: #FB8F1D;
+  }
+  .arrow{
+  border: solid #FB8F1D;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+  }
+  .right{
+  -webkit-transform: rotate(-45deg);
+  }
+  .viewall__places{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 56px;
+      padding-bottom: 59px;
+      padding-left: 119px;
+  }
+  .viewall__places__block{
+      position: relative;
+  }
+  .viewall__places__svg{
+      background: #c4c4c4;
+      border-radius: 8px;
+  }
+  .viewall__places__rectangle{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      bottom: 0;
+      width: 120px;
+      background: #ffffff;
+      border-radius: 0px 6px 0px 0px;
+      padding-top: 11px;
+  }
+  .viewall__places__rectangle__name{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 25px;
+  
+  color: rgba(4, 37, 33, 1);
+  
+  mix-blend-mode: normal;
+  }
+  .viewall__places__rectangle__place{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 25px;
+  
+  color: rgba(128, 145, 142, 1);
+  
+  mix-blend-mode: normal;
+  }

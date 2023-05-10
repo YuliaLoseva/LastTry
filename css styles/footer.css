@@ -1,0 +1,90 @@
+.contacts{
+    position: relative;
+    display: flex;
+width: 1640px;
+height: 482px;
+margin-top: 563px;
+}
+.picolo{
+    width: 1640px;
+height: 482px;
+    background: #f9f9fb;
+}
+.socMed__polosa{
+width: 1219px;
+height: 0.6px;
+color: rgba(196, 196, 196, 1);
+}
+.contacts__short{
+    padding-left: 190px;
+    position: relative;
+    height: 237px;
+    width: 391px;
+}
+.contacts__short__svg{
+    width: 44px;
+    height: 44px;
+    padding-top: 78px;
+}
+.contacts__short__thanks{
+    padding-top: 26px;
+    width: 301px;
+    max-height: 84px;
+    font-family: 'Muli', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+color: #848484;
+}
+.contacts__short__2020{
+    padding-top: 55px;
+    max-width: 391px;
+    max-height: 28px;
+    font-family: 'Muli', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 28px;
+color: #848484;
+}
+.contacts__stolbiki{
+    max-width: 391px;
+    max-height: 249px;
+    margin-left: 108px;
+    margin-top:70px;
+}
+.contacts__stolbiki__shapka{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 60px;
+    color: #000000;
+    width: 115px;
+    height: 60px;
+}
+.contacts__stolbiki__telo{
+    max-height: 190px;
+}
+.contacts__area{
+    font-family: 'Muli', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 38px;
+color: #848484;
+}
+.socMed{
+    max-width: 1600px;
+background: #f9f9fb;
+}
+.socMed__logs{
+    max-width: 248px;
+    max-height: 23px;
+    justify-content: space-between;
+    margin-left: 540px;
+}
+.iconify{
+margin-left: 30px;
+}
