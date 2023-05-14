@@ -8,15 +8,29 @@ max-height: 542px;
 }
 .guides__thousand{
 float: right;
-padding-right: 76.5px;
+}
+.guides__thousand__elem{
+position: absolute;
+margin-top: 37px;
+padding-right: 154.5px;
 }
 .guides__thousand__phone{
     width: 599px;
     height: 542px;
+    padding-right: 76.5px;
 }
 .guides__text{
 float: left;
 margin-top: 152px;
+}
+.guides__elem{
+position: absolute;
+margin-top: 85px;
+padding-left: 45px;
+}
+.guides__elemTwo__krug{
+    position: absolute;
+    padding-top: 420px ;
 
 }
 .guides__text__title{

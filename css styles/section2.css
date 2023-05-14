@@ -18,6 +18,16 @@
     .container__newway__thousand-02{
     margin-top: 16px;
     }
+    .text__elOne{
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 29px;
+    }
+    .text__krugNiz{
+        position: absolute;
+        margin-top: 26px;
+        margin-left: 63px;
+    }
     .text{
         justify-content: right;
         top: 0;

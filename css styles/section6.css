@@ -6,6 +6,10 @@ margin-top: 228px;
 margin-left: 143px;
 margin-right: 235px;
 }
+.stories__element__krest{
+    position: absolute;
+    margin-left: 501px;
+}
 .stories__shorts{
 display: flex;
 justify-content: space-between;
@@ -22,12 +26,15 @@ padding-left: 97px;
     max-width: 481px;
     max-height: 50px;
 }
+.stories__prryamo{
+    margin-left: 85px;
+}
 .stories__articles{
     display: flex;
     justify-content: space-between;
     margin-top: 56px;
     float: left;
-    margin-left: 41px;
+    margin-left: 20px;
 }
 .stories__articles__block{
     position: relative;
@@ -81,4 +88,13 @@ color: #FB8F1D;
 width: 266px;
 height: 28px;
 margin-top: 23px;
+}
+.stories__elements__krug{
+    position: absolute;
+    margin-top: 664px;
+    margin-left: 837px;
+}
+.stories__element__krug{
+    position: absolute;
+    margin-top: 425px;
 }

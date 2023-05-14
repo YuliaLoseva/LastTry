@@ -12,10 +12,6 @@
   }
   .viewall__menu{
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 30px;
-      margin-top: 30px;
       padding-left: 119px;
   }
   .viewall__menu-title{
@@ -29,6 +25,7 @@
   padding-top: 1px;
   max-width: 451px;
   max-height: 50px;
+  margin-top: 30px;
   }
   
   .viewall__menu__vector{
@@ -40,6 +37,8 @@
   font-size: 17px;
   line-height: 60px;
   color: #FB8F1D;
+  padding-left: 660px;
+  margin-top: 30px;
   }
   .arrow{
   border: solid #FB8F1D;
@@ -50,6 +49,10 @@
   }
   .right{
   -webkit-transform: rotate(-45deg);
+  }
+  .viewall__menu__elTri{
+    position: absolute;
+padding-left: 948px;
   }
   .viewall__places{
       display: flex;

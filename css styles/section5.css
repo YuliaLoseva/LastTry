@@ -1,7 +1,7 @@
 .mister{
     display: flex;
     position: relative;
-    margin-top: 248px;
+    padding-top: 248px;
     width: 1180px;
     max-height: 616px;
     margin-left: 96px;
@@ -77,6 +77,16 @@
         max-width: 124px;
         max-height: 48px;
     }
+    .mister__photography__krug{
+        position: absolute;
+        margin-left: 360px;
+        z-index: 1;
+    }
+    .mister__photography__Krest{
+        position: absolute;
+        padding-top: 500px;
+        z-index: 3;
+    }
     .mister__photography{
         width: 417px;
     height: 523px;
@@ -85,11 +95,13 @@
     float: right;
     }
     .mister__photography__him{
+        position: relative;
     width: 384px;
     height: 491px;
     background: #c4c4c4;
     border-radius: 16px;
     margin-top: 27px;
+    z-index: 2;
     }
     .mister__photography__him__rectangle{
     display: flex;
@@ -101,6 +113,7 @@
     border-radius: 16px 0px 0px 0px;
     margin-left: 252px;
     margin-top: 431px;
+    z-index: 4;
     }
     .mister__photography__him__previous{
         height: 40px;
